@@ -3,4 +3,3 @@ pandas==2.0.3       # Match your local version
 numpy==1.24.3       # Match your local version
 plotly==5.15.0      # For Plotly visualizations
 scikit-learn==1.2.2 # If you are using ML models
-pickle5==0.0.11     # If necessary for loading .pkl files

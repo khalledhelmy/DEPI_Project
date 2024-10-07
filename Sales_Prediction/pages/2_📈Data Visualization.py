@@ -9,7 +9,7 @@ st.set_page_config(
     page_icon="📈"
 )
 
-df = pd.read_csv('App\cleaned_data.csv')
+df = pd.read_csv('cleaned_data.csv')
 
 st.title('Data Visualization')
 

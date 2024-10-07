@@ -10,8 +10,8 @@ st.set_page_config(
 
 # Load model and data
 try:
-    reg = pickle.load(open('model.pkl', 'rb'))
-    clean_df = pd.read_csv('cleaned_data.csv')
+    reg = pickle.load(open('App\model.pkl', 'rb'))
+    clean_df = pd.read_csv('App\cleaned_data.csv')
 except FileNotFoundError as e:
     st.error(f"Error loading files: {e}")
     st.stop()
